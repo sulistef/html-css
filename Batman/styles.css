@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "courier-prime";
+	src: url('assets/Courier_Prime.ttf');
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.italique {
+	font-style: italic;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+footer {
+	padding-top: 0.1em !important; 
+}
